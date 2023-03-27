@@ -1,0 +1,218 @@
+.main-div{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: #0F2027;
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    height: 60px;
+    width: 100%;
+}
+
+.head_left{
+    display: flex;
+}
+
+.header_title{
+    font-family: 'Popins';
+    font-weight: lighter;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    letter-spacing: 3.5px;
+    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+}
+
+.head_right{
+    display: flex;
+    align-items: center;
+}
+
+.btn_logout{
+    padding: 10px;
+    background: transparent;
+    color: white;
+    border: none;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-style: normal;
+}
+
+.btn_logout:hover{
+    color: red;
+    transition: 0.25s ease-in;
+}
+
+.header p{
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    display: flex;
+    margin-left: 20px;
+    position: relative;
+}
+
+.setion-container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.tool-div{
+    width: 145px;
+    height: 100vh;
+    background: #0A2558;
+    transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.tool-ul{
+    position: fixed;
+    top: 62px;
+    left: 0;
+    width: 110px;
+    height: 872.5px;
+    background: #0F2027;
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    color: #fff;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.fst_btn{
+    margin-top: 20px;
+}
+
+.sub-menu{
+    display: none;
+}
+
+.button-div{
+    width: 60px;
+    display: block;
+    background-color: #0A2558;
+}
+
+.canvas-div{
+    position: fixed;
+    left: 111px;
+    height: 100%;
+    width: 1500px;
+}
+
+.canvas-div::selection{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.canvas-div:hover{
+    cursor: crosshair;
+}
+
+.svg-container{
+    height: 600px;
+    width: 1028px
+}
+
+.svg-container::selection{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.label-div{
+    position: fixed;
+    right: 0px;
+    top: 62px;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5px;
+}
+
+.rectangle{
+    fill: rgba(0, 255, 255, 0.192);
+    stroke: rgb(0, 255, 255, 0.7);
+    stroke-width: 2px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
+
+.rectangle:hover{
+    cursor: grab;
+    fill: rgba(13, 36, 245, 0.315);
+    stroke: rgb(13, 36, 245, 0.7);
+}
+
+.imgref{
+    background-color: rgba(255, 94, 0, 0.192);
+    border: rgba(255, 94, 0, 0.7);
+    border-width: 2px;
+    border-style: solid;
+}
+
+.tool-button{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(163, 162, 162)
+}
+
+.tool-button:hover{
+    background-color: rgb(25, 126, 214);
+    color: rgb(255, 255, 255);
+}
+
+.canvas-image::selection{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.label-div1{
+    border-radius: 5px;
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    padding: 5px;
+    background: #0F2027;
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    font-family: "poppins";
+    overflow-y: auto;
+}
+
+.label-div2{
+    height: 50vh;
+    width: auto;
+    background-color: blue;
+    text-align: center;
+}
+
+.label {
+    height: 500px !important;
+}
+
+.params{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: left;
+    margin-left: 25px;
+}
+
+.grid_item{
+    color: black;
+}
+
+
+
+
+
+
+

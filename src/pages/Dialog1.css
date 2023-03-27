@@ -1,0 +1,85 @@
+.dialog-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dialog-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.dialog-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.input-holder{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.input-holder-1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.input-box{
+    margin-top: 10px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: aquamarine;
+    border-color: blue;
+    padding-left: 15px;
+}
+
+.input-box:focus{
+    background-color: rgb(240, 167, 167);
+}
+
+.input-label{
+    padding-left: 10px;
+}
+
+.btn-ok{
+    width: 60px;
+    background-color: rgba(68, 214, 112, 0.774);
+    border-radius: 5px;
+    height: 20px;
+}
+
+.btn-cancel{
+    width: 60px;
+    background-color: rgb(241, 99, 89);
+    border-radius: 5px;
+    height: 20px;
+}
+
+.btn-cancel:hover{
+    transform: scale(1.1);
+    background-color: rgba(117, 117, 209, 0.74);
+}
+
+.btn-ok:hover{
+    transform: scale(1.1);
+    background-color: rgba(117, 117, 209, 0.74);
+}
+
+.btn-holder{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

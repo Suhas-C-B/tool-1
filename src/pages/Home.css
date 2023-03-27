@@ -1,0 +1,18 @@
+.home-main-div{
+    height: 100vh;
+}
+
+.home-drone-div{
+    height: 50%;
+    width: 100%;
+    background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpaperaccess.com%2Fsilver-car&psig=AOvVaw2nvCrVLJvv1Lyoig15gz-N&ust=1678182396292000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCPisk96Cx_0CFQAAAAAdAAAAABAI');
+}
+
+.home-gt-div{
+    height: 50%;
+    width: 100%;
+}
+
+.home-img{
+    width: 100%;
+}
