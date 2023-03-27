@@ -66,6 +66,9 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 }));
 
 function Canvas1() {
+
+  const nxtImgBtn = useRef(null);
+  const prevImgBtn = useRef(null);
   const [coord, setCoord] = useState([]);
   const [imgRefC, setImgRefC] = useState([]);
   const [d1coordx, setD1coordx] = useState();
